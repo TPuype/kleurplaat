@@ -137,9 +137,9 @@ save.addEventListener("click", (e) => {
     document.body.removeChild(a);
 })
 
+
 document.getElementById('load').addEventListener('change', function () {
     if (this.files[0]) {
-        // read the contents of the first file in the <input type="file">
         reader.readAsText(this.files[0]);
     }
 });

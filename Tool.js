@@ -3,6 +3,7 @@ class Tool {
 
     color;
     size;
+    shape;
 
     constructor(color, size, shape) {
         this.color = color;
